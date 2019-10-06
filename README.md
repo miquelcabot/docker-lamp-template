@@ -4,6 +4,7 @@ Docker template with LAMP stack (Apache, MySql, Php and PhpMyAdmin)
 ## Prerequisites
 Prerequisites to run this application:
 * Docker ([https://docs.docker.com/install/](https://docs.docker.com/install/))
+* To deploy to Heroku: Heroku CLI ([https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli))
 
 ## Run and stop the containers 
 To run these containers:
@@ -45,4 +46,4 @@ mysql -u root -p
 ```
 
 ## Deploy to Heroku
-(...pending...)
+[https://devcenter.heroku.com/categories/deploying-with-docker](https://devcenter.heroku.com/categories/deploying-with-docker)
