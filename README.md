@@ -1,6 +1,10 @@
 # docker-lamp-template
 Docker template with LAMP stack (Apache, MySql, Php and PhpMyAdmin)
 
+## Prerequisites
+Prerequisites to run this application:
+* Docker ([https://docs.docker.com/install/](https://docs.docker.com/install/))
+
 ## Run and stop the containers 
 To run these containers:
 ```
