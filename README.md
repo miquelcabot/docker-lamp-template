@@ -21,5 +21,24 @@ To run the application you must:
 * Open phpMyAdmin at [http://localhost:8081](http://localhost:8081).
 * Open simple PHP web application example at [http://localhost:8080](http://localhost:8080)
 
+## Bash shell
+To execute an interactive bash shell on the `www`, `db` or `phpmyadmin` containers:
+```
+docker-compose exec www bash
+docker-compose exec db bash
+docker-compose exec phpmyadmin bash
+```
+
+## Run MySql client
+To run the MySQL client:
+```
+docker-compose exec db mysql -u root -p
+```
+or
+```
+docker-compose exec db bash
+mysql -u root -p
+```
+
 ## Deploy to Heroku
 (...pending...)

@@ -1,6 +1,7 @@
 version: "3.1"
 services:
     www:
+        container_name: www
         build: .
         ports: 
             - "8080:80"
@@ -11,6 +12,7 @@ services:
         networks:
             - default
     db:
+        container_name: db
         image: mysql:8.0
         ports: 
             - "3306:3306"
@@ -26,6 +28,7 @@ services:
         networks:
             - default
     phpmyadmin:
+        container_name: phpmyadmin
         image: phpmyadmin/phpmyadmin
         links: 
             - db:db
